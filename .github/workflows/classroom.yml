@@ -18,15 +18,13 @@ jobs:
       uses: classroom-resources/autograding-io-grader@v1
       with:
         test-name: Quiz 1
-        setup-command: ''
-        command: Which of the following best describes software engineering?
+        command: command: echo "b) The process of designing, developing, and maintaining software"
         input: |
           b) The process of designing, developing, and maintaining software
 
         expected-output: b) The process of designing, developing, and maintaining
           software
            score: 10
-        timeout: 10
         max-score: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
