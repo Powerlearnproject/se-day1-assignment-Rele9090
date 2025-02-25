@@ -20,13 +20,12 @@ jobs:
         test-name: Quiz 1
         setup-command: ''
         command: Which of the following best describes software engineering?
-        input: |-
-          
+        input: |
           b) The process of designing, developing, and maintaining software
 
         expected-output: b) The process of designing, developing, and maintaining
           software
-    
+           score: 10
         timeout: 10
         max-score: 10
     - name: Autograding Reporter
